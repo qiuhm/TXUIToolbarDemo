@@ -19,6 +19,8 @@
 		D4CF8B5E18549FDB00958CA7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CF8B4618549FDB00958CA7 /* UIKit.framework */; };
 		D4CF8B6618549FDB00958CA7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D4CF8B6418549FDB00958CA7 /* InfoPlist.strings */; };
 		D4CF8B6818549FDB00958CA7 /* TXUIToolbarDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CF8B6718549FDB00958CA7 /* TXUIToolbarDemoTests.m */; };
+		D4CF8B741854A03100958CA7 /* txMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D4CF8B731854A03100958CA7 /* txMainViewController.m */; };
+		D4CF8B771854A43300958CA7 /* button.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CF8B761854A43300958CA7 /* button.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		D4CF8B6318549FDB00958CA7 /* TXUIToolbarDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TXUIToolbarDemoTests-Info.plist"; sourceTree = "<group>"; };
 		D4CF8B6518549FDB00958CA7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D4CF8B6718549FDB00958CA7 /* TXUIToolbarDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TXUIToolbarDemoTests.m; sourceTree = "<group>"; };
+		D4CF8B721854A03100958CA7 /* txMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = txMainViewController.h; sourceTree = "<group>"; };
+		D4CF8B731854A03100958CA7 /* txMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = txMainViewController.m; sourceTree = "<group>"; };
+		D4CF8B761854A43300958CA7 /* button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = button.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +112,8 @@
 		D4CF8B4818549FDB00958CA7 /* TXUIToolbarDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D4CF8B751854A42000958CA7 /* Resources */,
+				D4CF8B711854A01900958CA7 /* Controllers */,
 				D4CF8B5118549FDB00958CA7 /* txAppDelegate.h */,
 				D4CF8B5218549FDB00958CA7 /* txAppDelegate.m */,
 				D4CF8B5418549FDB00958CA7 /* Images.xcassets */,
@@ -142,6 +149,23 @@
 				D4CF8B6418549FDB00958CA7 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D4CF8B711854A01900958CA7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D4CF8B721854A03100958CA7 /* txMainViewController.h */,
+				D4CF8B731854A03100958CA7 /* txMainViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		D4CF8B751854A42000958CA7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D4CF8B761854A43300958CA7 /* button.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +244,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4CF8B771854A43300958CA7 /* button.png in Resources */,
 				D4CF8B4D18549FDB00958CA7 /* InfoPlist.strings in Resources */,
 				D4CF8B5518549FDB00958CA7 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4CF8B741854A03100958CA7 /* txMainViewController.m in Sources */,
 				D4CF8B5318549FDB00958CA7 /* txAppDelegate.m in Sources */,
 				D4CF8B4F18549FDB00958CA7 /* main.m in Sources */,
 			);
